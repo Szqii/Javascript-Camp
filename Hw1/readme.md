@@ -1,27 +1,15 @@
+# Week 1 - Server 
+ 
+This project needs [Node.js Runtime ](https://nodejs.org/en/download/) to run locally.
 
-**Installation**
 
+P.S.: [Heroku](https://id.heroku.com/login) is used to deploy that app to online.
 
-*Project needs node.js runtime. Download from https://nodejs.org/en/download/*
+There is an empty, customizable array [here.](https://javascript-hw1.herokuapp.com/)
 
-Or browse & **run** in browser via `repl.it`
+|  Function |  Command |
+|--|--|
+| To add | ../add/:number |
+| To delete | ../delete/:number|
+| To update|../update/:target/:destination|
 
-[![Run on Repl.it](https://repl.it/badge/github/pausiber/blazing-fast-javascript-course-homeworks)](https://repl.it/github/pausiber/blazing-fast-javascript-course-homeworks)
-
-**Clone latest code:**
-
-```bash
-git clone git@github.com:pausiber/blazing-fast-javascript-course-homeworks.git
-```
-
-**Install third party packages:**
-
-```bash
-npm install
-```
-
-**Run**
-
-```bash
-node index.js
-```
