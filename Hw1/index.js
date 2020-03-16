@@ -21,7 +21,6 @@ app.get('/delete/:number', (req, res) => {
 })
 
 app.get('/update/:target/:destination', (req, res) => {
-
   for (let i=0; i<db.length; i++) {if(db[i]===+req.params.target) {db[i]=+req.params.destination;}}
     res.json(db)
 })
